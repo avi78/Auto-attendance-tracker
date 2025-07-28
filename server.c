@@ -176,7 +176,7 @@ int main()
                     strcpy(buffer, "\nLABS> Welcome ");
                     strcat(buffer, connection[clientfd]);
                     strcat(buffer, " to Labs!");
-                    // strcat(buffer, " Enter your Name, Class and Roll no. [AI&DS_A_Siddhesh_27]");
+                    // strcat(buffer, " Enter your Name, Class and Roll no. [CS_A_Akruti_24]");
                     send(clientfd, buffer, strlen(buffer), 0);
 
                     /*ask details of the student and store them in an array*/
